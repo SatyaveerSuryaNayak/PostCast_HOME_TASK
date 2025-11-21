@@ -885,13 +885,15 @@ pytest tests/unit/test_paragraph_repository.py
 ## Technology Stack
 
 - **FastAPI**: Modern, fast web framework with automatic API documentation
+- **Uvicorn**: ASGI server to run the FastAPI application
 - **PostgreSQL**: Robust relational database with excellent text search capabilities
-- **SQLAlchemy**: Mature ORM for database operations
+- **SQLAlchemy**: ORM for database operations (using async version with asyncpg)
+- **asyncpg**: PostgreSQL async driver for high-performance database operations
 - **Redis**: In-memory cache and Celery message broker
 - **Celery**: Distributed task queue for background jobs
-- **Pydantic**: Type-safe data validation
-- **httpx**: Modern async HTTP client
-- **pytest**: Testing framework with excellent FastAPI support
+- **Pydantic**: Type-safe data validation and settings management
+- **httpx**: Modern async HTTP client for external API calls
+- **pytest**: Testing framework with async support (pytest-asyncio)
 
 ---
 
