@@ -758,7 +758,7 @@ WHERE content ~* '\yword1\y'
 
 ### Enhancement: Elasticsearch Integration
 
-If you're dealing with large datasets in production, **Elasticsearch** would be a big improvement:
+If we want to deal with large datasets in production, **Elasticsearch** would be a big improvement:
 
 #### Why Elasticsearch?
 
@@ -842,7 +842,6 @@ If you're dealing with large datasets in production, **Elasticsearch** would be 
 - **Current**: Good for < 100K paragraphs, simple use cases
 - **Elasticsearch**: Recommended for > 100K paragraphs, production scale, advanced search needs
 
-The current PostgreSQL setup works fine for this assignment, but if you need to scale to production with lots of data, Elasticsearch would be the way to go.
 
 ## Running Tests
 
