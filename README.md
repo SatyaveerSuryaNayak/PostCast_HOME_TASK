@@ -895,4 +895,8 @@ pytest tests/unit/test_paragraph_repository.py
 
 ---
 
-**Note**: This was built as a home task assignment. The code is organized to be maintainable, testable, and easy to understand. We tried to follow good practices while keeping things simple.
+**Note**: The readme table of content is asked by ai assitant to write as it makes it beautiful.
+
+
+THANKS:
+SATYAVEER NAYAK
